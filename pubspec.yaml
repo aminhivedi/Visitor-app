@@ -3,7 +3,7 @@ description: "اپلیکیشن ویزیتور برای مدیریت سفارشا
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -11,36 +11,24 @@ dependencies:
 
   cupertino_icons: ^1.0.8
 
-  # Firebase core and services
   firebase_core: ^4.0.0
   cloud_firestore: ^6.0.0
   firebase_auth: ^6.0.0
   firebase_storage: ^13.0.0
   firebase_messaging: ^16.0.0
 
-  # Image caching
   cached_network_image: ^3.4.1
-
-  # Connectivity
   connectivity_plus: ^6.1.4
-
-  # Notifications
   flutter_local_notifications: ^19.4.0
-
-  # Location and maps
   geolocator: ^14.0.2
   google_maps_flutter: ^2.18.1
-
-  # State management
   provider: ^6.1.5
-
-  # Local database
   sqflite: ^2.4.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
